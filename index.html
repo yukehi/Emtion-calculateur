@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <h1 class="hader">Emtion calculateur</h1>
+        <p class="contant">Based on the research of Plutchik </p>
+    </div>
+
+    <div class="middle">
+        <div>
+            <img  class= "img img-happy"src="imgs/happy.png" alt="">
+            <img class="img img-sad" src="imgs/sad.png" alt="">
+            
+            <h2 class="title">Let Your Emtion</h2>
+            <h1 class="yelid">FREE </h1>
+        </div>
+        <form method="post" action="send.php">
+            <div class="contionr emotion">
+                <div id="Joy" data-value="Joy" class="btn">Joy
+                </div>
+                <div id="Trust" class="btn" data-value="Trust">Trust
+                </div>
+                <div id="Feared" class="btn" data-value="Feared">Feared
+                </div>
+                <div id="Suprised" class="btn" data-value="Suprised">Suprised
+                </div>
+                <div id="Sad" class="btn" data-value="Sad">Sad
+                </div>
+                <div id="Disgust" class="btn" data-value="Disgust">Disgust
+                </div>
+                <div id="Angry" class="btn" data-value="Angry">Angry
+                </div>
+                <div id="Anticipated" class=" btn" data-value="anticipated">anticipated
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="bottom">
+        <div class="color-contioner">
+            <img class="img img-angry" src="imgs/angry.png" alt="">
+            <img class="img img-love" src="imgs/in love.png" alt="">
+            <h2 class="title">pick the color that most <span class="bold">express</span>  you</h2>
+            <h1 class="yelid">Now</h1>
+            <form method="post" action="send.php">
+                <div class="contionr color">
+                    <div id="yellow" class="btn yellow btn-size" data-value-color="yellow">
+                    </div>
+                    <div id="lime" class=" btn lime btn-size" data-value-color="lime">
+                    </div>
+                    <div id="green" class="btn green btn-size" data-value-color="green">
+                    </div>
+                    <div id="aqua" class="btn aqua btn-size" data-value-color="aqua">
+                    </div>
+                    <div id="blue" class="btn blue btn-size" data-value-color="blue">
+                    </div>
+                    <div id="pink" class="btn pink btn-size" data-value-color="pink">
+                    </div>
+                    <div id="red" class="btn red btn-size " data-value-color="red">
+                    </div>
+                    <div id="orange" class="btn orange btn-size" data-value-color="orange">
+                    </div>
+
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="answer">
+        <h2 class="hope" >hope it helps you to understand your self</h2>
+
+
+    </div>
+
+
+
+
+    <script src="js/engine.js" defer></script>
+    <!-- <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar - www.freepik.com</a> -->
+</html>

@@ -207,7 +207,7 @@ function createResult(emotion, color) {
       alert('you feel now aggresivness')
     }
   }
-  if(emotion === 'Anticipated'){
+  if(emotion === 'anticipated'){
     if(color === 'yellow'){
       alert('you feel now optimism')
     }

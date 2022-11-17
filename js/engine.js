@@ -27,51 +27,51 @@ $('.btn').click(function(){
 function createResult(emotion, color) {
   if(emotion === 'Joy'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה מאושר|ת ')
+      alert('נא ליצור קשר ')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה מאוהב|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה אשמ|ה')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה משועשע|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה מבולבל|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה חולה')
+      alert('נא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה גאווה')
+      alert('נא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה אופטימי')
+      alert('נא ליצור קשר')
     }
   }
   if(emotion === 'Trust'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה מאוהב|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה מאובטח|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה חלוק|ה בדעתך')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה מסוקרנ|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה סנטימנטלי|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה מבולבל|ת')
+      alert('אנא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה בשליטה')
+      alert('נא ליצור קשר״)
     }
     if(color === 'orange'){
       alert('את|ה מרגיש|ה תקווה')
@@ -79,158 +79,158 @@ function createResult(emotion, color) {
   }
   if(emotion === 'Feared'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה אשמ|ה')
+      alert('אנא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה חלוק|ה בדעתך')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה מובהל|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה מדהימ|ה')
+      alert('אנא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה מיואש|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה ממורמר|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|הס סוער|')
+      alert('נא ליצור קשר|')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה חרדתי|ת')
+      alert('אנא ליצור קשר')
     }
   }
   if(emotion === 'Suprised'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה משועשע|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה סקרנ|ית')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה מכובד|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה מופתע|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה גינוי|ה')
+      alert('נא ליצור קשר')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה אי אמון')
+      alert('נא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה ממורמר|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה מבולבל|ת')
+      alert('נא ליצור קשר')
     }
   }
   if(emotion === 'Sad'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ת מבולבל|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ת סינטמנטלי|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ת מיואש|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ת מורד|ת')
+      alert('אנא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ת מדוכא|ה ')
+      alert('נא ליצור קשר ')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ת חרטה')
+      alert('נא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ת קינאה')
+      alert('נא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ת פסימי|ת')
+      alert('אנא ליצור קשר')
     }
   }
   if(emotion === 'Disgust'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה הרסני|ת')
+      alert('אנא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה מבולבל|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה בושה')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה אי אמון')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה חרטה ')
+      alert('נא ליצור קשר ')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה נגעל|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה זלזול')
+      alert('אנא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה לגלוג')
+      alert('אנא ליצור קשר')
     }
   }
   if(emotion === 'Angry'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה גאווה')
+      alert('נא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה דומיננטי|ת')
+      alert('אנא ליצור קשר')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה בלבול')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה זוועה')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה קנאי|ת ')
+      alert('נא ליצור קשר ')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה זלזול')
+      alert('אנא ליצור קשר')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה זעם')
+      alert('אנא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה אגרסיביות')
+      alert('אנא ליצור קשר')
     }
   }
   if(emotion === 'anticipated'){
     if(color === 'yellow'){
-      alert('את|ה מרגיש|ה אופטימי|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'lime'){
-      alert('את|ה מרגיש|ה תקווה')
+      alert('נא ליצור קשרה')
     }
     if(color === 'green'){
-      alert('את|ה מרגיש|ה חרדה')
+      alert('נא ליצור קשר')
     }
     if(color === 'aqua'){
-      alert('את|ה מרגיש|ה מבולבל')
+      alert('נא ליצור קשר')
     }
     if(color === 'blue'){
-      alert('את|ה מרגיש|ה פסימי|ת ')
+      alert('נא ליצור קשר ')
     }
     if(color === 'pink'){
-      alert('את|ה מרגיש|ה ציני|ת')
+      alert('נא ליצור קשרת')
     }
     if(color === 'red'){
-      alert('את|ה מרגיש|ה אגרסיבי|ת')
+      alert('נא ליצור קשר')
     }
     if(color === 'orange'){
-      alert('את|ה מרגיש|ה מצפה')
+      alert('נא ליצור קשר')
     }
   }
    

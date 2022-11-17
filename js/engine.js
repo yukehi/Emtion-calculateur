@@ -71,7 +71,7 @@ function createResult(emotion, color) {
       alert('אנא ליצור קשר')
     }
     if(color === 'red'){
-      alert('נא ליצור קשר״)
+      alert('אנא ליצור קשר')
     }
     if(color === 'orange'){
       alert('את|ה מרגיש|ה תקווה')

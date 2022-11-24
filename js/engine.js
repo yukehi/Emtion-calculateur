@@ -1,4 +1,9 @@
-const colorBriage= $(this).attr("data-value-color");
+$('.btn').click(function(){
+  $(this).parent().find('.btn').removeClass('selected');
+  $(this).addClass('selected');
+  
+  const emationBrige = $(this).attr('data-value');
+  const colorBriage= $(this).attr("data-value-color");
   
   if(emationBrige) {
     const selectedColor = $(document).find(".color").find('.btn.selected');
@@ -8,6 +13,7 @@ const colorBriage= $(this).attr("data-value-color");
       
     }
   }
+
   if(colorBriage) {
     const selectEemtion = $(document).find(".emotion").find('.btn.selected');
     if(selectEemtion.length > 0) {
@@ -16,7 +22,6 @@ const colorBriage= $(this).attr("data-value-color");
     }
   }
 });
-
 
 function createResult(emotion, color) {
   if(emotion === 'Joy'){

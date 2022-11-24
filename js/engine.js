@@ -1,3 +1,22 @@
+const colorBriage= $(this).attr("data-value-color");
+  
+  if(emationBrige) {
+    const selectedColor = $(document).find(".color").find('.btn.selected');
+    if(selectedColor.length > 0) {
+      const color = selectedColor[0].getAttribute("data-value-color")
+      createResult(emationBrige, color);
+      
+    }
+  }
+  if(colorBriage) {
+    const selectEemtion = $(document).find(".emotion").find('.btn.selected');
+    if(selectEemtion.length > 0) {
+      const emtion = selectEemtion[0].getAttribute("data-value")
+      createResult(emtion, colorBriage);
+    }
+  }
+});
+
 
 function createResult(emotion, color) {
   if(emotion === 'Joy'){

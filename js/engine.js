@@ -1,3 +1,4 @@
+
 $('.btn').click(function(){
   $(this).parent().find('.btn').removeClass('selected');
   $(this).addClass('selected');
@@ -234,7 +235,3 @@ function createResult(emotion, color) {
   }
    
 }
-
-
-
-export {createResult};
